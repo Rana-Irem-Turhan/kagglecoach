@@ -1,0 +1,25 @@
+# KaggleCoach runtime dependencies.
+# Install with:
+#     pip install -r requirements.txt
+
+# --- LLM & embeddings ------------------------------------------------------
+foundry-local-sdk>=0.4.0
+openai>=1.30.0
+
+# --- Vector search & storage ----------------------------------------------
+# faiss-cpu ships prebuilt Windows wheels for Python 3.8-3.12.
+faiss-cpu>=1.7.4
+numpy>=1.24
+
+# --- Data handling --------------------------------------------------------
+pandas>=2.0
+
+# --- UI -------------------------------------------------------------------
+streamlit>=1.30
+
+# --- Config parsing -------------------------------------------------------
+# Python 3.11+ has tomllib built in. Uncomment for older Python:
+# tomli>=2.0 ; python_version < "3.11"
+
+# --- Testing (optional but useful) ----------------------------------------
+pytest>=8.0

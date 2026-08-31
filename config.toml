@@ -1,0 +1,89 @@
+# KaggleCoach configuration
+# All tunable parameters live here. Edit and restart the app to apply.
+
+[models]
+# Foundry Local aliases. Run `foundry model list` to see what's available
+# and adjust these if the names don't match your local catalog.
+chat = "phi-3.5-mini"
+embedding = "qwen3-embedding-0.6b"
+
+# Azure OpenAI is OFF by default. When enabled via the UI toggle, KaggleCoach
+# routes chat calls to Azure instead of Foundry Local. Embeddings always stay
+# local (privacy: your dataset never leaves the machine).
+[models.azure]
+enabled = false
+# Environment variables read at runtime — never commit real values.
+# AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_API_KEY, AZURE_OPENAI_DEPLOYMENT
+api_version = "2024-08-01-preview"
+
+[chunking]
+# Documents are chunked at markdown H2/H3 headers.
+min_chars = 300
+max_chars = 1600
+
+[retrieval]
+# Per-collection top-K. The report can pull evidence from any of the three
+# collections (tabular, nlp, general_ml).
+top_k_per_collection = 4
+
+# Cosine similarity threshold. Retrieved chunks below this are dropped
+# from evidence rather than shown as weak matches.
+similarity_threshold = 0.30
+
+# For the top primary collection the coach requires at least this many
+# strong hits before it will generate model recommendations. If not met,
+# the report notes reduced confidence.
+min_strong_hits_primary = 2
+
+[collections]
+# Which folders map to which FAISS collection. Adding a folder here plus a
+# corresponding knowledge/<name>/ directory is enough — the indexer picks
+# it up automatically.
+tabular = "knowledge/tabular"
+nlp = "knowledge/nlp"
+general_ml = "knowledge/general_ml"
+
+[generation]
+# Report generation uses lower temperature for consistency.
+temperature = 0.15
+max_tokens = 1400
+
+[dialogue]
+# Rule-based question tree. Number of questions after which the dialogue
+# closes even if some are skipped by branching (safety cap).
+max_questions = 7
+
+[eda]
+# A column with cardinality above this is treated as "high cardinality" and
+# gets flagged for special encoding treatment.
+high_cardinality_threshold = 100
+
+# Missing-rate thresholds used for the profile summary.
+missing_moderate = 0.05
+missing_severe = 0.30
+
+# Row-count buckets used to describe dataset size in the report.
+size_small_max = 10_000
+size_medium_max = 100_000
+size_large_max = 1_000_000
+
+[overfitting]
+# Train/val gap thresholds used to classify overfitting severity when the
+# user supplies both scores.
+gap_healthy_max = 0.03
+gap_mild_max = 0.08
+# Above gap_mild_max → severe
+
+# Rows-per-feature ratio: below this, small-dataset + complex-model warnings
+# fire proactively.
+rows_per_feature_risky = 50
+
+[paths]
+knowledge_dir = "knowledge"
+db_path = "data/kagglecoach.sqlite"
+faiss_dir = "data/faiss"
+
+[web]
+# Streamlit uses its own launcher (`streamlit run`), but we surface the port
+# here so setup docs stay consistent.
+port = 8501

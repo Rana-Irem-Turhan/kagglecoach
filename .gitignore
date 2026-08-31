@@ -1,0 +1,71 @@
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual environments --------------------------------------------------
+venv/
+.venv/
+env/
+.env
+ENV/
+
+# --- IDE / editor ----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Windows ---------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# --- KaggleCoach runtime state ---------------------------------------------
+# The indexer writes here — recreate with `python -m kagglecoach.indexer`.
+data/
+*.faiss
+*.sqlite
+*.sqlite-journal
+
+# --- Env files (never commit real credentials) -----------------------------
+.env
+.env.local
+.env.*.local
+
+# --- Test / coverage artefacts --------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- Streamlit -------------------------------------------------------------
+.streamlit/secrets.toml
+
+# --- Notebooks -------------------------------------------------------------
+.ipynb_checkpoints/

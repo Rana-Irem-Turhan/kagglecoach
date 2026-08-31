@@ -1,0 +1,101 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
+2,1,1,"Cumings, Mrs. John Bradley",female,38,1,0,PC 17599,71.2833,C85,C
+3,1,3,"Heikkinen, Miss. Laina",female,26,0,0,STON/O2. 3101282,7.925,,S
+4,1,1,"Futrelle, Mrs. Jacques Heath",female,35,1,0,113803,53.1,C123,S
+5,0,3,"Allen, Mr. William Henry",male,35,0,0,373450,8.05,,S
+6,0,3,"Moran, Mr. James",male,,0,0,330877,8.4583,,Q
+7,0,1,"McCarthy, Mr. Timothy J",male,54,0,0,17463,51.8625,E46,S
+8,0,3,"Palsson, Master. Gosta Leonard",male,2,3,1,349909,21.075,,S
+9,1,3,"Johnson, Mrs. Oscar W",female,27,0,2,347742,11.1333,,S
+10,1,2,"Nasser, Mrs. Nicholas",female,14,1,0,237736,30.0708,,C
+11,0,3,"Cumings, Mrs. John Bradley",33,1,0,0,69.29,71.2833,C85,C
+12,0,3,"Johnson, Mrs. Oscar W",8,0,1,2,27.10,11.1333,,S
+13,0,3,"Nasser, Mrs. Nicholas",58,1,3,0,60.98,30.0708,,C
+14,0,3,"Braund, Mr. Owen Harris",40,1,1,0,95.94,7.25,,S
+15,0,1,"Moran, Mr. James",50,2,2,0,81.68,8.4583,,Q
+16,0,2,"Palsson, Master. Gosta Leonard",,2,2,1,59.85,21.075,,S
+17,0,3,"Cumings, Mrs. John Bradley",42,0,1,0,87.32,71.2833,C85,C
+18,1,2,"McCarthy, Mr. Timothy J",51,1,2,0,38.75,51.8625,E46,S
+19,0,3,"Allen, Mr. William Henry",36,1,3,0,41.05,8.05,,S
+20,0,3,"Johnson, Mrs. Oscar W",12,1,0,2,81.48,11.1333,,S
+21,1,1,"McCarthy, Mr. Timothy J",45,1,3,0,42.59,51.8625,E46,S
+22,0,2,"Palsson, Master. Gosta Leonard",,4,2,1,75.97,21.075,,S
+23,1,2,"McCarthy, Mr. Timothy J",22,4,3,0,13.64,51.8625,E46,S
+24,0,1,"Braund, Mr. Owen Harris",59,4,0,0,41.55,7.25,,S
+25,1,3,"Nasser, Mrs. Nicholas",6,0,2,0,78.02,30.0708,,C
+26,0,2,"Moran, Mr. James",63,0,2,0,97.33,8.4583,,Q
+27,0,3,"Heikkinen, Miss. Laina",69,4,1,0,19.52,7.925,,S
+28,0,3,"Heikkinen, Miss. Laina",7,0,2,0,88.48,7.925,,S
+29,0,1,"Allen, Mr. William Henry",15,0,3,0,82.52,8.05,,S
+30,0,1,"Johnson, Mrs. Oscar W",26,2,3,2,96.61,11.1333,,S
+31,0,3,"Johnson, Mrs. Oscar W",52,3,3,2,16.50,11.1333,,S
+32,0,2,"Futrelle, Mrs. Jacques Heath",,4,1,0,60.90,53.1,C123,S
+33,0,3,"Braund, Mr. Owen Harris",34,0,0,0,86.67,7.25,,S
+34,0,2,"Cumings, Mrs. John Bradley",32,4,1,0,73.72,71.2833,C85,C
+35,1,1,"Nasser, Mrs. Nicholas",57,1,0,0,14.21,30.0708,,C
+36,1,2,"McCarthy, Mr. Timothy J",11,0,0,0,43.25,51.8625,E46,S
+37,0,1,"Moran, Mr. James",62,1,3,0,22.43,8.4583,,Q
+38,0,1,"Palsson, Master. Gosta Leonard",17,0,0,1,97.05,21.075,,S
+39,0,2,"Futrelle, Mrs. Jacques Heath",32,3,0,0,20.64,53.1,C123,S
+40,1,2,"Braund, Mr. Owen Harris",63,2,3,0,71.18,7.25,,S
+41,1,1,"Johnson, Mrs. Oscar W",32,0,0,2,76.06,11.1333,,S
+42,0,3,"Braund, Mr. Owen Harris",25,0,0,0,85.88,7.25,,S
+43,0,3,"Cumings, Mrs. John Bradley",56,0,1,0,60.00,71.2833,C85,C
+44,0,2,"Braund, Mr. Owen Harris",45,2,1,0,68.62,7.25,,S
+45,0,2,"Moran, Mr. James",43,3,2,0,93.26,8.4583,,Q
+46,0,2,"Cumings, Mrs. John Bradley",17,0,1,0,53.06,71.2833,C85,C
+47,1,1,"Heikkinen, Miss. Laina",52,2,1,0,46.63,7.925,,S
+48,1,3,"Johnson, Mrs. Oscar W",6,4,2,2,93.52,11.1333,,S
+49,0,2,"Cumings, Mrs. John Bradley",,0,1,0,30.87,71.2833,C85,C
+50,0,3,"Nasser, Mrs. Nicholas",38,4,3,0,28.86,30.0708,,C
+51,0,3,"Braund, Mr. Owen Harris",40,0,0,0,36.69,7.25,,S
+52,1,1,"Heikkinen, Miss. Laina",59,4,0,0,15.63,7.925,,S
+53,0,2,"Heikkinen, Miss. Laina",23,3,1,0,8.97,7.925,,S
+54,0,2,"Moran, Mr. James",36,0,2,0,79.11,8.4583,,Q
+55,0,1,"McCarthy, Mr. Timothy J",27,3,0,0,22.04,51.8625,E46,S
+56,1,3,"Moran, Mr. James",36,2,1,0,79.80,8.4583,,Q
+57,1,1,"Cumings, Mrs. John Bradley",33,1,3,0,38.22,71.2833,C85,C
+58,0,1,"Futrelle, Mrs. Jacques Heath",56,2,2,0,87.11,53.1,C123,S
+59,1,3,"Allen, Mr. William Henry",47,0,0,0,88.32,8.05,,S
+60,0,3,"Allen, Mr. William Henry",38,0,0,0,61.67,8.05,,S
+61,1,2,"Moran, Mr. James",70,0,3,0,90.45,8.4583,,Q
+62,1,1,"Futrelle, Mrs. Jacques Heath",5,4,1,0,39.60,53.1,C123,S
+63,1,3,"Cumings, Mrs. John Bradley",20,2,2,0,68.35,71.2833,C85,C
+64,1,3,"Moran, Mr. James",21,1,3,0,68.17,8.4583,,Q
+65,0,3,"McCarthy, Mr. Timothy J",56,4,0,0,33.87,51.8625,E46,S
+66,1,3,"Futrelle, Mrs. Jacques Heath",46,3,3,0,47.01,53.1,C123,S
+67,1,3,"Futrelle, Mrs. Jacques Heath",15,2,2,0,13.87,53.1,C123,S
+68,1,1,"Futrelle, Mrs. Jacques Heath",23,0,0,0,28.26,53.1,C123,S
+69,0,2,"Palsson, Master. Gosta Leonard",29,3,3,1,42.97,21.075,,S
+70,0,1,"Heikkinen, Miss. Laina",33,1,3,0,9.77,7.925,,S
+71,0,2,"Futrelle, Mrs. Jacques Heath",,3,2,0,95.25,53.1,C123,S
+72,1,3,"Palsson, Master. Gosta Leonard",25,3,3,1,29.62,21.075,,S
+73,1,3,"Futrelle, Mrs. Jacques Heath",35,2,3,0,12.36,53.1,C123,S
+74,0,2,"Allen, Mr. William Henry",15,1,1,0,26.97,8.05,,S
+75,0,1,"Heikkinen, Miss. Laina",47,4,3,0,44.50,7.925,,S
+76,1,2,"Futrelle, Mrs. Jacques Heath",7,4,3,0,50.31,53.1,C123,S
+77,1,2,"Moran, Mr. James",58,4,1,0,51.38,8.4583,,Q
+78,1,2,"Allen, Mr. William Henry",,2,3,0,73.80,8.05,,S
+79,0,3,"Palsson, Master. Gosta Leonard",55,4,0,1,12.98,21.075,,S
+80,0,2,"McCarthy, Mr. Timothy J",38,3,2,0,25.11,51.8625,E46,S
+81,1,2,"Moran, Mr. James",58,2,0,0,49.68,8.4583,,Q
+82,0,2,"Johnson, Mrs. Oscar W",13,0,0,2,95.21,11.1333,,S
+83,0,3,"Futrelle, Mrs. Jacques Heath",21,3,0,0,58.58,53.1,C123,S
+84,1,3,"Futrelle, Mrs. Jacques Heath",52,1,0,0,78.89,53.1,C123,S
+85,1,1,"Heikkinen, Miss. Laina",44,4,3,0,42.68,7.925,,S
+86,0,3,"Futrelle, Mrs. Jacques Heath",36,0,2,0,85.78,53.1,C123,S
+87,0,3,"Nasser, Mrs. Nicholas",49,4,3,0,67.84,30.0708,,C
+88,1,1,"Cumings, Mrs. John Bradley",67,0,3,0,96.27,71.2833,C85,C
+89,0,2,"Palsson, Master. Gosta Leonard",39,4,3,1,49.16,21.075,,S
+90,1,2,"Nasser, Mrs. Nicholas",16,2,3,0,28.17,30.0708,,C
+91,1,2,"Palsson, Master. Gosta Leonard",,2,1,1,51.32,21.075,,S
+92,1,2,"Moran, Mr. James",40,4,0,0,54.08,8.4583,,Q
+93,0,1,"Futrelle, Mrs. Jacques Heath",67,4,1,0,70.61,53.1,C123,S
+94,1,1,"Palsson, Master. Gosta Leonard",,1,3,1,70.72,21.075,,S
+95,1,2,"Allen, Mr. William Henry",49,3,2,0,38.42,8.05,,S
+96,1,2,"Palsson, Master. Gosta Leonard",20,1,2,1,16.36,21.075,,S
+97,0,1,"Johnson, Mrs. Oscar W",66,2,2,2,98.15,11.1333,,S
+98,1,1,"Futrelle, Mrs. Jacques Heath",43,0,1,0,31.06,53.1,C123,S
+99,1,3,"Braund, Mr. Owen Harris",67,0,0,0,59.54,7.25,,S
+100,1,2,"Palsson, Master. Gosta Leonard",11,2,3,1,15.84,21.075,,S

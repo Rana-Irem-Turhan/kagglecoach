@@ -5,9 +5,9 @@
 # --- LLM & embeddings ------------------------------------------------------
 foundry-local-sdk>=0.4.0
 openai>=1.30.0
+sentence-transformers
 
 # --- Vector search & storage ----------------------------------------------
-# faiss-cpu ships prebuilt Windows wheels for Python 3.8-3.12.
 faiss-cpu>=1.7.4
 numpy>=1.24
 

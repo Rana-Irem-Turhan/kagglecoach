@@ -46,7 +46,7 @@ class ModelClient:
         else:
            messages = messages_or_system
         client = self._openai_client()
-        model = self._settings.chat_model if self._use_azure() else "Phi-3.5-mini-instruct-cuda-gpu"
+        model = self._settings.chat_model if self._use_azure() else "qwen2.5-1.5b-instruct-cuda-gpu:4"
         resp = client.chat.completions.create(
             model=model,
             messages=messages,
